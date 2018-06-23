@@ -1,7 +1,6 @@
 
 const {EmptyMessage, NumberMessage} = require("../protocol/api/api_pb");
 const { TransferContract } = require("../protocol/core/Contract_pb");
-const { Transaction } = require("../protocol/core/Tron_pb");
 const PrivateKeySigner = require("../signer/privateKeySigner");
 const decode58Check = require("../utils/crypto").decode58Check;
 
